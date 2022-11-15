@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A290548F291EBCF3008B7651 /* hedgehog.json in Resources */ = {isa = PBXBuildFile; fileRef = A290548C291EBCF3008B7651 /* hedgehog.json */; };
+		A2905490291EBCF3008B7651 /* hamster.json in Resources */ = {isa = PBXBuildFile; fileRef = A290548D291EBCF3008B7651 /* hamster.json */; };
+		A2905495291ED4C4008B7651 /* fox.json in Resources */ = {isa = PBXBuildFile; fileRef = A2905494291ED4C4008B7651 /* fox.json */; };
+		A2AA16452922BD4600930AED /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = A2AA16442922BD4600930AED /* TinyConstraints */; };
 		A2E7BA07291DF90A00E13383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E7BA06291DF90A00E13383 /* AppDelegate.swift */; };
 		A2E7BA09291DF90A00E13383 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E7BA08291DF90A00E13383 /* SceneDelegate.swift */; };
 		A2E7BA0B291DF90A00E13383 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E7BA0A291DF90A00E13383 /* ViewController.swift */; };
 		A2E7BA0E291DF90A00E13383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E7BA0C291DF90A00E13383 /* Main.storyboard */; };
 		A2E7BA10291DF90D00E13383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E7BA0F291DF90D00E13383 /* Assets.xcassets */; };
 		A2E7BA13291DF90D00E13383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E7BA11291DF90D00E13383 /* LaunchScreen.storyboard */; };
+		A2E7BA1C291DFA2E00E13383 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A2E7BA1B291DFA2E00E13383 /* Lottie */; };
+		A2E7BA20291E16B900E13383 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E7BA1F291E16B900E13383 /* LoaderView.swift */; };
+		A2E7BA24291E1B1200E13383 /* fish.json in Resources */ = {isa = PBXBuildFile; fileRef = A2E7BA23291E1B1200E13383 /* fish.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A290548C291EBCF3008B7651 /* hedgehog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hedgehog.json; sourceTree = "<group>"; };
+		A290548D291EBCF3008B7651 /* hamster.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hamster.json; sourceTree = "<group>"; };
+		A2905494291ED4C4008B7651 /* fox.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fox.json; sourceTree = "<group>"; };
 		A2E7BA03291DF90A00E13383 /* Practica1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practica1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E7BA06291DF90A00E13383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2E7BA08291DF90A00E13383 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,8 @@
 		A2E7BA0F291DF90D00E13383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2E7BA12291DF90D00E13383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2E7BA14291DF90D00E13383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2E7BA1F291E16B900E13383 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		A2E7BA23291E1B1200E13383 /* fish.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fish.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +43,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E7BA1C291DFA2E00E13383 /* Lottie in Frameworks */,
+				A2AA16452922BD4600930AED /* TinyConstraints in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A290548B291EBCE3008B7651 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				A2905494291ED4C4008B7651 /* fox.json */,
+				A290548D291EBCF3008B7651 /* hamster.json */,
+				A290548C291EBCF3008B7651 /* hedgehog.json */,
+				A2E7BA23291E1B1200E13383 /* fish.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		A2905492291EC856008B7651 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A2E7BA11291DF90D00E13383 /* LaunchScreen.storyboard */,
+				A2E7BA06291DF90A00E13383 /* AppDelegate.swift */,
+				A2E7BA08291DF90A00E13383 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A2905493291EC8BE008B7651 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A2E7BA0F291DF90D00E13383 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		A2E7B9FA291DF90A00E13383 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +99,12 @@
 		A2E7BA05291DF90A00E13383 /* Practica1 */ = {
 			isa = PBXGroup;
 			children = (
-				A2E7BA06291DF90A00E13383 /* AppDelegate.swift */,
-				A2E7BA08291DF90A00E13383 /* SceneDelegate.swift */,
+				A2905493291EC8BE008B7651 /* Assets */,
+				A2905492291EC856008B7651 /* SupportingFiles */,
+				A290548B291EBCE3008B7651 /* Animations */,
+				A2E7BA1F291E16B900E13383 /* LoaderView.swift */,
 				A2E7BA0A291DF90A00E13383 /* ViewController.swift */,
 				A2E7BA0C291DF90A00E13383 /* Main.storyboard */,
-				A2E7BA0F291DF90D00E13383 /* Assets.xcassets */,
-				A2E7BA11291DF90D00E13383 /* LaunchScreen.storyboard */,
 				A2E7BA14291DF90D00E13383 /* Info.plist */,
 			);
 			path = Practica1;
@@ -83,6 +126,10 @@
 			dependencies = (
 			);
 			name = Practica1;
+			packageProductDependencies = (
+				A2E7BA1B291DFA2E00E13383 /* Lottie */,
+				A2AA16442922BD4600930AED /* TinyConstraints */,
+			);
 			productName = Practica1;
 			productReference = A2E7BA03291DF90A00E13383 /* Practica1.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +158,10 @@
 				Base,
 			);
 			mainGroup = A2E7B9FA291DF90A00E13383;
+			packageReferences = (
+				A2E7BA1A291DFA2E00E13383 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				A2AA16432922BD4600930AED /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+			);
 			productRefGroup = A2E7BA04291DF90A00E13383 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +176,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A290548F291EBCF3008B7651 /* hedgehog.json in Resources */,
 				A2E7BA13291DF90D00E13383 /* LaunchScreen.storyboard in Resources */,
 				A2E7BA10291DF90D00E13383 /* Assets.xcassets in Resources */,
 				A2E7BA0E291DF90A00E13383 /* Main.storyboard in Resources */,
+				A2905495291ED4C4008B7651 /* fox.json in Resources */,
+				A2905490291EBCF3008B7651 /* hamster.json in Resources */,
+				A2E7BA24291E1B1200E13383 /* fish.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2E7BA0B291DF90A00E13383 /* ViewController.swift in Sources */,
+				A2E7BA20291E16B900E13383 /* LoaderView.swift in Sources */,
 				A2E7BA07291DF90A00E13383 /* AppDelegate.swift in Sources */,
 				A2E7BA09291DF90A00E13383 /* SceneDelegate.swift in Sources */,
 			);
@@ -358,6 +414,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2AA16432922BD4600930AED /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.0.2;
+			};
+		};
+		A2E7BA1A291DFA2E00E13383 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A2AA16442922BD4600930AED /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2AA16432922BD4600930AED /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			productName = TinyConstraints;
+		};
+		A2E7BA1B291DFA2E00E13383 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2E7BA1A291DFA2E00E13383 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A2E7B9FB291DF90A00E13383 /* Project object */;
 }
